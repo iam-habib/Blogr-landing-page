@@ -12,6 +12,14 @@ const connectDropdown = document.querySelector(".connect_items");
 
 mobileMenu.addEventListener("click", function () {
   navList.classList.toggle("show");
+  mobileMenu.classList.add("hide");
+  menuclose.classList.remove("hide");
+});
+
+menuclose.addEventListener("click", function () {
+  navList.classList.toggle("show");
+  mobileMenu.classList.remove("hide");
+  menuclose.classList.add("hide");
 });
 
 product.addEventListener("click", function () {
