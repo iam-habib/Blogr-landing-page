@@ -25,7 +25,7 @@ body {
 
 header {
   width: 100%;
-  height: 60vh;
+  height: 65vh;
   background: url(images/bg-pattern-intro-desktop.svg),
     linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%) 70%);
   background-size: 220%;
